@@ -1,0 +1,31 @@
+Parte 3 – Reflexión personal
+
+####### ¿Qué diferencias notaron en la experiencia de usuario entre ambos diseños? ###########
+
+La diferencia principal es que el diseño adaptativo cambia de forma brusca en puntos específicos, como 
+saltos entre tamaños, mientras que el responsivo se adapta de manera suave y continua. 
+En el adaptativo tienes control total sobre cómo se ve cada versión, pero puede sentirse 
+menos natural. El responsivo fluye mejor cuando cambias el tamaño de la ventana, pero a veces
+no se ve perfecto en todos los tamaños.
+
+######## ¿Qué ventajas y desventajas vieron en cada enfoque? ##########
+
+El adaptativo te permite optimizar específicamente para cada dispositivo y tener
+diseños únicos, pero requiere más código y mantenimiento. El responsivo es más eficiente  de programar y funciona en cualquier pantalla, 
+pero tienes menos control sobre el resultado
+final. El adaptativo es mejor cuando necesitas diseños muy diferentes entre móvil y desktop, 
+mientras que el responsivo es más práctico para proyectos rápidos donde el contenido es similar en todos los dispositivos.
+
+######## ¿En qué casos reales aplicarían uno u otro? #########
+
+Usaría Adaptativo cuando:
+Necesito diseños muy diferentes para móvil vs desktop
+Trabajo en sitios corporativos donde cada dispositivo debe verse específico
+El contenido cambia mucho entre dispositivos
+Tengo recursos para mantener múltiples versiones
+
+Usaría Responsivo cuando:
+Quiero desarrollo rápido y eficiente
+El contenido es similar en todos los dispositivos
+Trabajo con equipos pequeños
+Necesito que funcione bien en dispositivos nuevos sin actualizar código

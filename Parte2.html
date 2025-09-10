@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo Responsivo</title>
+<style>
+body { margin: 0; font-family: sans-serif; }
+
+.contenedor {
+display: flex;
+flex-direction: column; /* columna por defecto (pantallas chicas) */
+gap: 20px;
+padding: 20px;
+}
+
+.caja {
+background: lightseagreen;
+padding: 5%;
+font-size: 2vw; /* escala según el ancho de la ventana */
+border-radius: 8px;
+text-align: center;
+flex: 1; /* las cajas se expanden igualmente */
+}
+
+/* Para pantallas grandes (más de 768px) */
+@media (min-width: 768px) {
+.contenedor {
+flex-direction: row; /* fila en pantallas grandes */
+}
+.caja {
+font-size: 1.5vw; /* ajuste del tamaño para fila */
+}
+}
+</style>
+</head>
+<body>
+<div class="contenedor">
+<div class="caja">Este es un diseño responsivo</div>
+<div class="caja">Caja 2: Flexbox en acción</div>
+<div class="caja">Caja 3: Se adapta al tamaño</div>
+<div class="caja">Caja 4: Responsivo y flexible</div>
+</div>
+</body>
+</html>
