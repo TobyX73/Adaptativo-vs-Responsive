@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo Adaptativo</title>
+<style>
+body { margin: 0; font-family: sans-serif; }
+.caja { background: lightblue; padding: 20px; }
+
+/* Versión móvil */
+@media (max-width: 480px) {
+.caja { background: lightgreen; font-size: 14px; }
+}
+
+/* Versión tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+.caja { background: lightcoral; font-size: 18px; }
+}
+
+/* Versión desktop */
+@media (min-width: 769px) and (max-width: 1199px) {
+.caja { background: lightblue; font-size: 22px; }
+}
+
+/* Versión pantallas grandes */
+@media (min-width: 1200px) {
+.caja { background: lightblue; color: violet; font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="caja">Este es un diseño adaptativo</div>
+</body>
+</html>
